@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "gradle"
+    directory: "/"  # directorio donde están tus dependencias, build.gradle
+    schedule:
+      interval: "dayli"  # frecuencia de las actualizaciones
